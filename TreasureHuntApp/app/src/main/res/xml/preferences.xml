@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <PreferenceCategory
+        android:title="@string/pref_cat_user"
+        android:key="pref_cat_user"
+        >
+
+        <EditTextPreference
+            android:key="pref_username"
+            android:title="@string/pref_username_title"
+            android:persistent="true"
+            android:dialogTitle="@string/pref_username_dialogtitle"
+            android:dialogMessage="@string/pref_username_dialogmessage"
+            android:defaultValue=""
+            android:id="@+id/username"
+            />
+
+        <EditTextPreference
+            android:key="pref_user_weight"
+            android:title="Weight"
+            android:summary="USed to calculate the calories burned durong a hunt"
+            android:persistent="true"
+            android:dialogTitle="Weight"
+            android:dialogMessage="enter your weight (kg)"
+            android:defaultValue=""
+            android:inputType="number"
+            android:id="@+id/user_weight"
+            />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

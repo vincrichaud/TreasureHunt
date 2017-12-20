@@ -1,0 +1,64 @@
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/Khaki</item>
+        <item name="colorPrimaryDark">@color/Goldenrod</item>
+        <item name="colorAccent">@color/Crimson</item>
+        <item name="android:colorBackground">@color/Gainsboro</item>
+        <item name="android:textColor">@color/MidnightBlue</item>
+        <item name="android:buttonStyle">@style/ButtonCustom</item>
+        <item name="android:editTextStyle">@style/EditTextCustom</item>
+        <item name="android:editTextPreferenceStyle">@style/EditTextCustom</item>
+        <item name="android:textViewStyle">@style/TextViewCustom</item>
+        <item name="android:colorForeground">@color/DarkNavy</item>
+        <item name="android:textColorPrimary">@color/DarkNavy</item>
+        <item name="android:borderlessButtonStyle">@style/ButtonCustom</item>
+        <item name="android:alertDialogStyle">@style/DialogStyle</item>
+    </style>
+
+    <style name="SettingsStyle" parent="@style/Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/Khaki</item>
+        <item name="colorPrimaryDark">@color/Goldenrod</item>
+        <item name="colorAccent">@color/Crimson</item>
+        <item name="android:colorBackground">@color/Gainsboro</item>
+        <item name="android:textColor">@color/MidnightBlue</item>
+        <item name="android:buttonStyle">@style/ButtonCustom</item>
+        <item name="android:editTextStyle">@style/EditTextCustom</item>
+        <item name="android:editTextPreferenceStyle">@style/EditTextCustom</item>
+        <item name="android:textViewStyle">@style/TextViewCustom</item>
+        <item name="android:colorForeground">@color/DarkNavy</item>
+        <item name="android:textColorPrimary">@color/DarkNavy</item>
+        <item name="android:borderlessButtonStyle">@style/ButtonCustom</item>
+    </style>
+
+
+    <style name="TextViewCustom" parent="@android:style/Widget.TextView">
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="EditTextCustom" parent="@android:style/Widget.EditText">
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/DarkSlateBlue</item>
+        <item name="android:background">@color/White</item>
+        <item name="android:textColorHint">@color/LightSteelBlue</item>
+        <item name="android:padding">4dp</item>
+    </style>
+    
+    <style name="ButtonCustom" parent="@android:style/Widget.Button">
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">-2</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/default_button_selector</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:background">@color/Gainsboro</item>
+    </style>
+
+</resources>
